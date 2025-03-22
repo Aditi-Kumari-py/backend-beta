@@ -1,14 +1,1 @@
-flask
-flask-cors
-pymongo
-tensorflow==2.14
-keras==2.14
-opencv-python-headless
-scipy
-numpy==1.23.5
-h5py
-pillow
-deepface
-werkzeug
-python-dotenv
-gunicorn
+
