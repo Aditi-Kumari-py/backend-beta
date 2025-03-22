@@ -1,5 +1,23 @@
 
 
+
+{
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/index.py"
+    }
+  ]
+}
+
+
+
 # from flask import Flask, request, jsonify, send_file
 # from flask_cors import CORS
 # from pymongo import MongoClient
